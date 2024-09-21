@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Projects</h1>
+    <p>Some of my projects</p>
+</header>
+
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="gamedesign.html">Game Design</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="appreciation.html">Appreciation</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Project descriptions here -->
+        <P>A Small Calculator</P>
+        <!-- Calculator -->
+        <div id="calculator">
+            <input type="text" id="first-number" placeholder="Enter first number">
+            <input type="text" id="second-number" placeholder="Enter second number">
+
+            <button onclick="addition()">+</button>
+            <button onclick="subtraction()">-</button>
+            <button onclick="multiplication()">*</button>
+            <button onclick="division()">/</button>
+            <button onclick="power()">Power</button>
+            <button onclick="clearFields()">Clear</button>
+            <div id="result-box">
+                <h3 id="output">Result will be displayed here</h3>
+            </div>
+        </div>
+    </main>
+</div>
+<footer>
+    <p>All Rights Served by Shangyuan Chen 2024 <a href="#">Credits</a> &copy;</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
